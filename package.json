@@ -2,11 +2,7 @@
 	"name": "@directus/cli",
 	"version": "9.14.1",
 	"description": "The official Directus CLI",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/directus/directus.git",
-		"directory": "packages/cli"
-	},
+	"repository": "directus/cli",
 	"main": "./dist/index.js",
 	"exports": {
 		".": "./dist/index.js",
