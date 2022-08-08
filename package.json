@@ -71,7 +71,7 @@
 		"shimmer": "^1.2.1",
 		"strip-ansi": "^6.0.0",
 		"yargs": "^17.0.1",
-		"yargs-parser": "^20.2.7"
+		"yargs-parser": "^21.1.1"
 	},
 	"devDependencies": {
 		"@types/figlet": "1.5.4",
