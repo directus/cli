@@ -146,8 +146,8 @@ export default async function <T>(argv: string[]): Promise<CommandResult<T>> {
 	runtime.addDefaultPlugin(path.join(__dirname, 'cli'), {
 		name: 'directus',
 		hidden: false,
-		extensionFilePattern: hasTsNode() ? [`*.{js,ts}`, `!*.test.{js,ts}`] : [`*.{js}`, `!*.test.{js}`],
-		commandFilePattern: hasTsNode() ? [`*.{js,ts}`, `!*.test.{js,ts}`] : [`*.{js}`, `!*.test.{js}`],
+		commandFilePattern: hasTsNode() ? ['*.js', '*.ts'] : ['*.js'],
+		extensionFilePattern: hasTsNode() ? ['*.js', '*.ts'] : ['*.js'],
 	});
 
 	runtime.addPlugin('./node_modules/directus/dist/cli/new', {

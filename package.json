@@ -1,6 +1,6 @@
 {
 	"name": "@directus/cli",
-	"version": "9.14.2",
+	"version": "9.14.3",
 	"description": "The official Directus CLI",
 	"repository": "directus/cli",
 	"main": "./dist/index.js",
