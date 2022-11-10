@@ -21,7 +21,7 @@ specifiers:
   cli-ux: ^5.5.1
   cliui: ^8.0.1
   cosmiconfig: ^7.0.0
-  csv: ^5.4.0
+  csv: ^6.2.1
   debug: ^4.3.1
   dot-object: ^2.1.4
   dotenv: ^10.0.0
@@ -70,7 +70,7 @@ dependencies:
   cli-ux: 5.6.7
   cliui: 8.0.1
   cosmiconfig: 7.0.1
-  csv: 5.5.3
+  csv: 6.2.1
   debug: 4.3.4
   dot-object: 2.1.4
   dotenv: 10.0.0
@@ -1831,26 +1831,26 @@ packages:
       cssom: 0.3.8
     dev: true
 
-  /csv-generate/3.4.3:
-    resolution: {integrity: sha512-w/T+rqR0vwvHqWs/1ZyMDWtHHSJaN06klRqJXBEpDJaM/+dZkso0OKh1VcuuYvK3XM53KysVNq8Ko/epCK8wOw==}
+  /csv-generate/4.2.0:
+    resolution: {integrity: sha512-zlIESlGQaYqIhNYwBN2pj5KXNMYbAXZYMOgNoVSoYV8MQyGZwcNWX+kx5LHxocp+zQDqzSgeKh+e+AZs+nCq4Q==}
     dev: false
 
-  /csv-parse/4.16.3:
-    resolution: {integrity: sha512-cO1I/zmz4w2dcKHVvpCr7JVRu8/FymG5OEpmvsZYlccYolPBLoVGKUHgNoc4ZGkFeFlWGEDmMyBM+TTqRdW/wg==}
+  /csv-parse/5.3.1:
+    resolution: {integrity: sha512-R4Hv6eGJNzgcKdThZ6XORbSQ873HVcNke74QIq+LbwpT90LaZ8Xzl7KKiuIP16xq/P7ofzRt0h7S0xm+fVScsw==}
     dev: false
 
-  /csv-stringify/5.6.5:
-    resolution: {integrity: sha512-PjiQ659aQ+fUTQqSrd1XEDnOr52jh30RBurfzkscaE2tPaFsDH5wOAHJiw8XAHphRknCwMUE9KRayc4K/NbO8A==}
+  /csv-stringify/6.2.0:
+    resolution: {integrity: sha512-dcUbQLRTTDcgQxgEU8V9IctkaCwHZjZfzUZ5ZB3RY8Y+pXtdtl5iVQHfGzANytFFkRKanYzBXrkfpNdGR7eviA==}
     dev: false
 
-  /csv/5.5.3:
-    resolution: {integrity: sha512-QTaY0XjjhTQOdguARF0lGKm5/mEq9PD9/VhZZegHDIBq2tQwgNpHc3dneD4mGo2iJs+fTKv5Bp0fZ+BRuY3Z0g==}
+  /csv/6.2.1:
+    resolution: {integrity: sha512-qTEPklcIZkJGaB/j6/2qNXZbKgWSXPVMyRnZvRcb1F7MGyvLqJexlZlbJ3NQkgmUoAeScZhsRHjlZEgImBfCYQ==}
     engines: {node: '>= 0.1.90'}
     dependencies:
-      csv-generate: 3.4.3
-      csv-parse: 4.16.3
-      csv-stringify: 5.6.5
-      stream-transform: 2.1.3
+      csv-generate: 4.2.0
+      csv-parse: 5.3.1
+      csv-stringify: 6.2.0
+      stream-transform: 3.2.0
     dev: false
 
   /data-urls/2.0.0:
@@ -3837,11 +3837,6 @@ packages:
       brace-expansion: 2.0.1
     dev: false
 
-  /mixme/0.5.4:
-    resolution: {integrity: sha512-3KYa4m4Vlqx98GPdOHghxSdNtTvcP8E0kkaJ5Dlh+h2DRzF7zpuVVcA8B0QpKd11YJeP9QQ7ASkKzOeu195Wzw==}
-    engines: {node: '>= 8.0.0'}
-    dev: false
-
   /ms/2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
 
@@ -4529,10 +4524,8 @@ packages:
       escape-string-regexp: 2.0.0
     dev: true
 
-  /stream-transform/2.1.3:
-    resolution: {integrity: sha512-9GHUiM5hMiCi6Y03jD2ARC1ettBXkQBoQAe7nJsPknnI0ow10aXjTnew8QtYQmLjzn974BnmWEAJgCY6ZP1DeQ==}
-    dependencies:
-      mixme: 0.5.4
+  /stream-transform/3.2.0:
+    resolution: {integrity: sha512-M22v88wNknyJiIyHYoiIYI5RPl/R7tkf92j1YNkmrbe5XRGHW0jW8n458j1njOrR4Edcj8bwbpSV0iLIWon1hg==}
     dev: false
 
   /string-argv/0.3.1:
